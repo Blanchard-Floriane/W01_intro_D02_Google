@@ -90,7 +90,6 @@ a {
   cursor: pointer;
 }
 
-
 .googlespace {
   width: auto;
   height: 290px;
@@ -189,6 +188,10 @@ a {
   border: 1px solid #dadce0;
   color: #202124;
 }
+.langage {
+  display: flex;
+}
+
 
 footer {
   background-color: #f2f2f2;
