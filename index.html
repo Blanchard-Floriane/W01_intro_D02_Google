@@ -8,6 +8,7 @@
   
   <body>
     <header>
+      <!--Nav Bar-->
       <div class="navigationbar">
         <div class="navigationbuttons">
           <div class="nav1">
@@ -22,18 +23,24 @@
           </div>
         </div>
       </div>
+
+      <!--Google logo section-->
       <div class="googlespace">
         <img class="googlelogo" src="./visuals/google-logo.png" alt="Logo Google" />
       </div>
-      <div class="search">
-        <div class="searchbar">
-          <div class="searchicon">
-            <img id="search" src="./visuals/loupe.png" alt="Magnifying glass" />
+      
+      <!--Search section-->
+      <div class="search-section">
+        <div class="search-bar">
+          <div class="search-icon">
+            <img id="magnifying-glass" src="./visuals/loupe.png" alt="Magnifying glass" />
           </div>
-          <div class="typingbar">
-            <input id="typing" type="text" />
+          <div class="typing-bar">
+            <form id="google-search" action="https://www.google.com/search" method="GET" target="_blank">
+              <input type="text" class="autre" name="q">
+            </form>
           </div>
-          <div class="voiceicon">
+          <div class="voice-icon">
             <img id="voice" src="./visuals/mic.png" alt="Mic logo with google chart" />
           </div>
           <div class="cameraicon">
@@ -44,14 +51,19 @@
             />
           </div>
         </div>
+        <div class="searchbuttons">
+          <input form="google-search" class="button2" type="submit" value="Recherche Google">
+          <input class="button3" type="button" value="J'ai de la chance" />
+        </div>
       </div>
     </header>
     <main>
-      <div class="searchbuttons">
-        <input id="button2" type="button" value="Recherche Google" />
-        <input id="button3" type="button" value="J'ai de la chance" />
+      <div class="langage">
+        <p>Google offered in: Français</p>
       </div>
     </main>
+
+    <!--Footer section-->
     <footer>
       <div class="country">
         <p>France</p>
