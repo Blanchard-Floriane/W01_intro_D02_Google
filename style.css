@@ -190,6 +190,10 @@ a {
 }
 .langage {
   display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  gap: 5px;
 }
 
 
